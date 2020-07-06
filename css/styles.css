@@ -71,6 +71,18 @@ header nav ul li{
     float: left;
     padding: 10px
 }
+header nav ul li a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 17px;
+}
+header nav ul li a:hover{
+   color: #30B576;
+}
+.active{
+  color: #30B576;
+  font-weight: 700;
+}
 /*end header   */
 
 /* start features */
