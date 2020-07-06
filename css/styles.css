@@ -1,0 +1,228 @@
+/* start main rules */
+
+body{
+ box-sizing: border-box;
+}
+.container{
+    max-width: 1000px;
+    min-width: 400px;
+    height:auto;
+    margin: 0 auto;
+}
+/*  end main rules */
+/* start header */
+header .slider{
+  height: 400px;
+}
+header .slider img{
+  width: 100%;
+  height: 400px;
+}
+header nav{
+  background-color: #252F31;
+  color: #fff;
+  overflow: hidden;
+  padding: 0 40px;
+}
+header nav .nav-brand{
+  float:left;
+  text-transform: uppercase;
+}
+header nav .nav-brand span{
+    color: #2ECC71;
+}
+header nav ul{
+  list-style: none;
+  padding-left: 0;
+  overflow: hidden;
+  float:right;
+}
+header nav ul li{
+    float: left;
+    padding: 10px
+}
+/*end header   */
+
+/* start features */
+.features{
+  overflow:hidden;
+  padding: 30px;
+}
+.features .feat{
+   float: left;
+   width: calc(100%/3);
+}
+.features .feat h2{
+  text-transform: uppercase;
+}
+/* end features*/
+
+/* start about me */
+.about{
+  background-color: #F2F2F2;
+  overflow: hidden;
+}
+.about .image{
+  float: left;
+  width:40%;
+}
+.about .image img{
+  width: 100%;
+}
+.about .info{
+  float: left;
+  width: 50%;
+  padding: 20px;
+}
+.about .info .hobbies{
+  list-style: none;
+  overflow: hidden;
+}
+.about .info .hobbies li{
+  float: left;
+  width: 50%;
+  margin-bottom: 5px;
+  min-height: 100px;
+}
+
+/* end about me */
+/* start skills */
+.myskills{
+ overflow: hidden;
+}
+.myskills .skill{
+  float: left;
+  width: 55%;
+  padding: 20px;
+}
+.myskills .skill h2{
+  text-transform: uppercase;
+}
+.myskills .skill a{
+  text-decoration: none;
+  border: 1px solid #2ECC71;
+  color: #2ECC71;
+  padding: 10px;
+  font-size: 18px;
+}
+.myskills .progress{
+  float: left;
+  width: 30%;
+  padding: 10px;
+}
+.myskills .progress .progress-group{
+  text-transform: uppercase;
+}
+/* end skills */
+
+/*start resume */
+.resume{
+  background-color: #F2F2F2;
+  padding: 20px;
+  text-align: center;
+}
+.resume h2{
+    text-transform: uppercase
+}
+.resume a{
+  text-decoration: none;
+  padding: 10px;
+  border: 1px solid #2ECC71;
+  color: #2ECC71;
+}
+/* end resume */
+/* start education */
+.education{
+  overflow:hidden;
+}
+.education .my-education{
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
+.education .my-education-diploma{
+  float:left;
+  width: 40%;
+  padding: 10px;
+}
+.education .my-education-diploma .diploma-groupe span{
+  display:block;
+  height: 15px;
+  width: 30px;
+  padding: 10px;
+  background-color: #2ECC71;
+  text-align: center;
+}
+/* end education*/
+
+/* start testimonials */
+.testimonials{
+  background-color: #F2F2F2;
+  padding: 20px;
+  text-align: center;
+}
+.testimonials footer{
+  margin: 20px 0 10px;
+}
+.testimonials footer span{
+  font-weight: bold;
+}
+.testimonials blockquote > span{
+  font-size: 30px;
+  color: #2ECC71;
+}
+/* end testimonials */
+
+/* start portfolio */
+.portfolio{
+   padding: 20px;
+    text-align: center;
+}
+.portfolio .work{
+   overflow: hidden;
+}
+.portfolio .work .work-img{
+  float: left;
+  width: 30%;
+  padding: 10px;
+}
+.portfolio .work .work-img img{
+    width: 100%;
+}
+/* end portfolio */
+
+/* start contact me */
+.contact-me{
+  overflow: hidden;
+  padding: 20px;
+  background-color: #252F31;
+}
+.contact-me .contact{
+  float: left;
+  width: 40%;
+}
+.contact-me .contact h2{
+   color: #fff;
+}
+.contact-me .contact p,
+.links p{
+   color: #6A6E71;
+}
+.contact-me .form{
+  float: left;
+  width: 40%;
+}
+.links{
+  padding: 10px;
+ background-color: #191E22;
+ text-align: center;
+}
+.links ul{
+  list-style: none;
+  overflow: hidden;
+}
+.links ul li{
+  float: left;
+  margin-right: 10px;
+}
+/* end contact me */
