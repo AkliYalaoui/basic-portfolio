@@ -56,7 +56,6 @@ header nav{
 }
 header nav .nav-brand{
   float:left;
-  text-transform: uppercase;
 }
 header nav .nav-brand span{
     color: #2ECC71;
@@ -460,3 +459,109 @@ textarea{
   font-size: 20px;
 }
 /* end footer */
+
+/*start responsivness */
+@media screen and (max-width:792px) {
+  header .slider .overlay h1{
+    width: 90%;
+    text-align: center;
+  }
+  header nav{
+    background-color: #252F31;
+    color: #fff;
+    overflow: hidden;
+    padding: 0 40px;
+  }
+  header nav .nav-brand{
+    float:none;
+    text-align: center;
+    border-bottom:1px solid #aaa;
+  }
+  header nav ul{
+    float:none;
+  }
+  .features .feat{
+     width: 100%;
+  }
+  .about .image{
+      width:100%;
+  }
+  .about .info{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+  .about .info .hobbies li{
+    width: 100%;
+  }
+  .myskills .skill{
+    width: 100%;
+    margin: 0;
+    padding: 0px;
+  }
+  .myskills .skill a{
+      margin: auto;
+  }
+  .myskills .progress{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .myskills .skill h2,
+  .myskills .skill p,
+  .myskills .progress .progress-group h3,
+  .myskills .progress .progress-group progress,
+  .about .info p,
+  .about .info h2{
+    margin: 20px;
+  }
+  .myskills .progress .progress-group progress{
+    width: 80%;
+  }
+  .education .my-education{
+    width: 100%;
+  }
+  .education .my-education h2{
+    text-align: center;
+  }
+  .education .my-education p{
+    line-height: 1.7;
+  }
+  .education .my-education-diploma{
+    width: 100%;
+  }
+  .education .my-education-diploma .diploma-groupe h3{
+      margin-top: 25px;
+  }
+  .education .my-education-diploma .diploma-groupe span{
+    margin-bottom: 20px;
+  }
+  .portfolio .work .work-img{
+    width: 100%;
+  }
+  .contact-me .contact{
+    width: 100%;
+  }
+  .contact-me .contact p{
+      margin: 10px;
+  }
+  .contact-me .form{
+    width: 100%;
+  }
+  .contact-me .form form{
+    width: 100%;
+    margin-top: 20px;
+    margin-right: 20px;
+  }
+  .form-group span{
+    position: absolute;
+    top: 13px;
+    right: -40px;
+  }
+  .form form input,
+  textarea{
+    width: 80%;
+  }
+}
+
+/* end responsivness*/
