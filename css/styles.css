@@ -123,6 +123,16 @@ header nav ul li a:hover{
   width: 50%;
   padding: 20px;
 }
+.about .info h2{
+  color: #333;
+  margin-left: 30px;
+  margin-bottom: -8px;
+}
+.about .info p{
+    color: #555;
+    margin-left: 30px;
+    line-height: 1.4;
+}
 .about .info .hobbies{
   list-style: none;
   overflow: hidden;
@@ -130,10 +140,26 @@ header nav ul li a:hover{
 .about .info .hobbies li{
   float: left;
   width: 50%;
-  margin-bottom: 5px;
-  min-height: 100px;
+  position: relative;
+  margin-top: -15px;
 }
-
+.about .info .hobbies li i{
+  position: absolute;
+  color: #2ECC71;
+  top: 20px;
+  left: -20px
+}
+.about .info .hobbies li h3{
+ color: #333;
+ margin-left: 10px;
+ margin-bottom: -10px;
+}
+.about .info .hobbies li p{
+    color: #555;
+    margin-left: -10px;
+    margin-right: 30px;
+    text-align: justify;
+}
 /* end about me */
 /* start skills */
 .myskills{
