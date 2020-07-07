@@ -448,10 +448,15 @@ textarea{
 }
 .links ul{
   list-style: none;
-  overflow: hidden;
+  text-align: center;
 }
 .links ul li{
-  float: left;
   margin-right: 10px;
+  display: inline-block;
+}
+.links ul li i{
+  text-decoration: none;
+  color: #4B5557;
+  font-size: 20px;
 }
 /* end footer */
