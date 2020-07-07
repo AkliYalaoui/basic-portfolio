@@ -172,21 +172,39 @@ header nav ul li a:hover{
 }
 .myskills .skill h2{
   text-transform: uppercase;
+  color: #333;
+}
+.myskills .skill p{
+  color: #777;
+  line-height: 1.5;
+  text-align: justify;
 }
 .myskills .skill a{
+  display:block;
   text-decoration: none;
   border: 1px solid #2ECC71;
   color: #2ECC71;
   padding: 10px;
   font-size: 18px;
+  margin-left: 40px;
+  margin-top: 20px;
+  width:100px;
 }
 .myskills .progress{
   float: left;
   width: 30%;
   padding: 10px;
+  margin-left: 30px;
 }
-.myskills .progress .progress-group{
-  text-transform: uppercase;
+.myskills .progress .progress-group h3{
+    text-transform: uppercase;
+    color: #333;
+    margin-bottom: 8px;
+}
+.myskills .progress .progress-group progress{
+  width: 100%;
+  height: 20px;
+  border-radius: 3px;
 }
 /* end skills */
 
